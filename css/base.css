@@ -1,0 +1,19 @@
+body {
+  color: rgb(32, 32, 32);
+  background-color: white;
+}
+
+main {
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-block-end: 60px;
+}
+
+div {
+  border: 1px solid rgb(32, 32, 32);
+  background-color: grey;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}

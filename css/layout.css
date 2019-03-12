@@ -1,0 +1,7 @@
+
+#flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 480px;
+}

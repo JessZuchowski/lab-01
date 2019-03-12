@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: white;
   background-color: white;
@@ -13,6 +17,11 @@ main {
 div {
   border: 1px solid rgb(32, 32, 32);
   background-color: grey;
-  box-sizing: border-box;
   text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    color: black;
+  }
 }

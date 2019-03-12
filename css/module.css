@@ -1,54 +1,111 @@
 
-#divA {
-  width: 480px;
-  height: 75px;
-  background-color: #454140;
-}
 
-#divB {
-  width: 480px;
-  height: 150px;
-  background-color: #bd5734;
-}
+  #divA {
+    width: 480px;
+    height: 75px;
+    background-color: #454140;
+  }
 
-#divC {
-  width: 480px;
-  height: 125px;
-  background-color: #a79e84;
-}
+  #divB {
+    width: 480px;
+    height: 150px;
+    background-color: #bd5734;
+  }
 
-#divD {
-  width: 480px;
-  height: 125px;
-  background-color: #7a3b2e;
-}
+  #divC {
+    width: 480px;
+    height: 125px;
+    background-color: #a79e84;
+  }
 
-#divE {
-  width: 240px;
-  height: 250px;
-  background-color: #454140;
-}
+  #divD {
+    width: 480px;
+    height: 125px;
+    background-color: #7a3b2e;
+  }
 
-#divF {
-  width: 240px;
-  height: 250px;
-  background-color: #bd5734;
-}
+  #divE {
+    width: 240px;
+    height: 250px;
+    background-color: #454140;
+  }
 
-#divG {
-  width: 240px;
-  height: 250px;
-  background-color: #a79e84;
-}
+  #divF {
+    width: 240px;
+    height: 250px;
+    background-color: #bd5734;
+  }
 
-#divH {
-  width: 240px;
-  height: 250px;
-  background-color: #7a3b2e;
-}
+  #divG {
+    width: 240px;
+    height: 250px;
+    background-color: #a79e84;
+  }
 
-#divI {
-  width: 480px;
-  height: 80px;
-  background-color: #454140;
+  #divH {
+    width: 240px;
+    height: 250px;
+    background-color: #7a3b2e;
+  }
+
+  #divI {
+    width: 480px;
+    height: 80px;
+    background-color: #454140;
+  }
+
+@media only screen and (min-width: 768px) {
+  #divA {
+    width: 960px;
+    height: 100px;
+    background-color: #588c7e;
+  }
+  
+  #divB {
+    width: 200px;
+    height: 600px;
+    background-color: #f2e394;
+  }
+  
+  #divC {
+    width: 380px;
+    height: 200px;
+    background-color: #f2ae72;
+  }
+  
+  #divD {
+    width: 380px;
+    height: 200px;
+    background-color: #d96459;
+  }
+  
+  #divE {
+    width: 190px;
+    height: 250px;
+    background-color: #588c7e;
+  }
+  
+  #divF {
+    width: 190px;
+    height: 250px;
+    background-color: #f2e394;
+  }
+  
+  #divG {
+    width: 190px;
+    height: 250px;
+    background-color: #f2ae72;
+  }
+  
+  #divH {
+    width: 190px;
+    height: 250px;
+    background-color: #d96459;
+  }
+  
+  #divI {
+    width: 760px;
+    height: 150x;
+    background-color: #588c7e;
+  }
 }

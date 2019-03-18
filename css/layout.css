@@ -1,19 +1,25 @@
 
-#flex-grid {
+.flex-container {
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
+  align-content: center;
   width: 480px;
 }
 
 @media only screen and (min-width: 768px) {
-  #flex-grid {
+  .flex-container {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     width: 960px;
-    height: 700px;
-    justify-content: center;
-    align-items: flex-start;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 768px;
   }
 }
